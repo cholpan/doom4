@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="header">
+          <h1>Пользователь</h1>
+          <button>Добавить</button>
+        </div>
+        <div class="list">
+          <div class="user">
+            <h2>Jonn Alex</h2>
+            <p class="age">Возраст: 25</p>
+            <p class="job">Работа: Сантехник</p>
+            <p class="exprience">Опыт работы: 6 лет</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-window">
+      <div class="modal-content">
+        <h3>Добавить пользователя</h3>
+        <form class="add-user">
+          <input name="name" type="text" placeholder="Ф.И.О" required />
+          <input name="age" type="number" placeholder="Возраст..." required />
+          <input name="job" type="text" placeholder="Работа ..." required />
+          <input
+            name="experience"
+            type="text"
+            placeholder="Опыт работы ..."
+            required
+          />
+          <div class="buttons">
+            <button>Добавить</button>
+            <a href="">Закрыть</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
